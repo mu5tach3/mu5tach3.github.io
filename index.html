@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Thore Rathsack</title>
+	<meta name="author" content="Thore Rathsack" />
+	<meta name="description" content="Repräsentation Thore Rathsacks">
+	<meta name="keywords" content="Thore, Rathsack, thorerathsack">
+	<meta name="description" content="Thore Rathsack" />
+	<meta name="title" content="Thore Rathsack" />
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link media="all" rel="stylesheet" type="text/css" href="style.css">
+	<link href='//fonts.googleapis.com/css?family=Ubuntu:300' rel='stylesheet' type='text/css'>
+	<meta name=viewport content="width=device-width">
+	<script type="text/javascript">
+		function UnCryptMailto(s){
+			var n = 0;
+			var r = "";
+			for(var i = 0; i < s.length; i++){
+				n = s.charCodeAt(i);
+				if(n >= 8364){
+					n = 128;}
+				r += String.fromCharCode(n-1);}
+			return r;}
+		function linkTo_UnCryptMailto(s){location.href=UnCryptMailto(s);}
+	</script>
+</head>
+<body id="body">
+	<div id="cont">
+		<img id="face" src="//www.gravatar.com/avatar/a0e62440071021551dce93e23d1528fb.png?s=401" alt="Thore Rathsack">
+		<div>
+			<p id="name">Thore Rathsack</p>
+			<div id="buttons">
+				<a href="https://www.facebook.com/thore.rathsack"><i class="fa fa-facebook-square fa-3x"></i></a>
+				<a href="https://plus.google.com/+ThoreRathsack/"><i class="fa fa-google-plus-square fa-3x"></i></a>
+				<a href="https://twitter.com/Thore_R"><i class="fa fa-twitter-square fa-3x"></i></a>
+				<a href="https://github.com/mu5tach3"><i class="fa fa-github-square fa-3x"></i></a>
+				<a href="javascript:linkTo_UnCryptMailto('nbjmup;Uipsf/sbuitbdlAhnbjm/dpn');">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-3x"></i>
+						<i class="fa fa-inbox fa-stack-2x fa-inverse"></i>
+					</span>
+				</a>
+				<a target="underscore:blanc" href="./pgp.asc">
+					<span class="fa-stack fa-lg">
+						<i class="fa fa-square fa-stack-3x"></i>
+						<i class="fa fa-lock fa-stack-2x fa-inverse"></i>
+					</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
